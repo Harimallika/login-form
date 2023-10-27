@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #ea8685;
+    overflow: hidden;
+}
+.wrapper {
+    height: 400px;
+    width: 400px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    margin: 120px auto;
+    resize: both;
+    overflow: auto;
+}
+.wrapper .tittle{
+    height: 90px;
+    /* width: 400px; */
+    background: #e66767;
+    border-radius:15px 15px 0 0 ;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+    padding-top: 25px;
+}
+.wrapper form{
+    padding: 30px 25px 25px 25px;
+    /* width: 100%; */
+}
+.wrapper form .row{
+    height: 45px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.wrapper form .row input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid #cf6a87; 
+    font-size: 15px;
+    font-weight: 200;
+    padding-left: 10px;
+    outline: none;
+    transition: 0.3s all ease;
+    margin-left: 40px;
+}
+.wrapper form .row input:hover{
+    box-shadow: 4px 4px 4px 0 #cf6a87 ;
+    border: 3px solid #cf6a87;
+
+}
+.wrapper form  .row i{
+    height: 40px;
+    width: 47px;
+    border:1px solid #574b90 ;
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #cf6a87;
+    overflow: hidden ;
+}
+.wrapper .pass{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.wrapper .pass a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+.wrapper .pass a:hover{
+    text-decoration: underline;
+}
+.wrapper form .button input{
+   font-size: 20px;
+   font-weight:600;
+   background: #ea8685;
+   color: #000 ;
+   padding-leftt:0px;
+   margin-left: 10px;
+   border: 2px solid #f78fb3;
+   text-align: center;
+   justify-content: center;
+   padding: 0px;
+   width: 100%;
+   cursor: pointer;
+   position: relative;
+}
+.wrapper form .button input:hover{
+    background: #e66767;
+    box-shadow: 5px 5px 5px 0 #cf6a87;
+}
+.wrapper form .signup-link{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+.wrapper form .signup-link a{
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 1px;
+}
+.wrapper form .signup-link a:hover{
+    text-decoration: underline;
+    color: #c44569;
+}
